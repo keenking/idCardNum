@@ -1,5 +1,5 @@
-身份证号的组成具体内容参考：
-http://www.cnblogs.com/xudong-bupt/p/3293838.html
+身份证号的组成简要：
+
 
 排列顺序从左至右依次为：六位数字地址码，八位数字出生日期码，三位数字顺序码和一位校验码。 
 
@@ -68,4 +68,3 @@ def getRandomIdNumber(sex = 1):
     return idNumber,addrName,addrId,birthDays,sex,checkOut
 ```
 
-本文地址：https://github.com/HeLiangHIT/idCardNumber
